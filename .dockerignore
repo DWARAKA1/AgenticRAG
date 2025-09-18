@@ -1,0 +1,12 @@
+.git
+.gitignore
+.env
+vectorstore/
+logs/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+.vscode/
+.idea/
