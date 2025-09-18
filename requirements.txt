@@ -1,0 +1,13 @@
+python-dotenv
+streamlit
+langchain[all]
+langchain-groq
+langchain-community
+langgraph
+chromadb
+tavily-python
+sentence-transformers
+pypdf2
+pytest
+tqdm
+flask

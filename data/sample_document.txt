@@ -1,0 +1,30 @@
+Agentic RAG System Documentation
+
+Introduction
+This is a sample document for testing the Agentic RAG (Retrieval-Augmented Generation) system. 
+The system combines the power of large language models with document retrieval capabilities.
+
+Key Features
+1. Document Processing: The system can process PDF documents and extract text content.
+2. Vector Storage: Documents are converted to embeddings and stored in a vector database.
+3. Intelligent Retrieval: When users ask questions, the system retrieves relevant document chunks.
+4. Answer Generation: The LLM generates answers based on the retrieved context.
+
+Technical Architecture
+- Frontend: Streamlit web application
+- LLM: Groq API with Llama models
+- Embeddings: HuggingFace sentence transformers
+- Vector Store: ChromaDB for local storage
+- Document Processing: LangChain document loaders and text splitters
+
+Usage Instructions
+1. Place PDF documents in the data/ directory
+2. Click "Process PDFs" to create the vector store
+3. Ask questions about your documents in the chat interface
+4. The system will provide answers based on document content
+
+Benefits
+- Fast and accurate document search
+- Context-aware answer generation
+- Easy-to-use web interface
+- Local processing for privacy
