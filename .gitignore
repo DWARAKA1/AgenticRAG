@@ -8,3 +8,27 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+
+# API Keys and secrets
+*.key
+*.pem
+config.ini
+secrets.json
+
+# Vector store data
+vectorstore/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
